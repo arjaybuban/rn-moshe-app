@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "ios": {
+      "bundleIdentifier": "com.buurp"
+    },
+    "android": {
+      "package": "com.buurp"
+    },
+    "scheme": "com.buurp",
+    "icon": "assets/image/app-icon.png",
+    "splash": {
+      "image": "assets/image/app-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "userInterfaceStyle": "automatic",
+    "entryPoint": "./index.js",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ]
+  }
+}
